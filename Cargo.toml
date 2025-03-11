@@ -31,8 +31,8 @@ serde_json = "1.0.114"
 tokio = { version = "1.36.0", features = ["time"] }
 spl-associated-token-account = "=2.3.0"
 clap = { version = "4.5.1", features = ["derive"], optional = true }
-solana-cli-output = { version = "=1.17.34" , optional = true  }
-solana-transaction-status = "=1.17.34"
+solana-cli-output = { version = "=1.17.6" , optional = true  }
+solana-transaction-status = "=1.17.6"
 backon = "0.4.3"
 ratatui = { version = "0.26.2", features = ["crossterm"], optional = true }
 tui-input = { version = "0.8.0", optional = true }
@@ -52,7 +52,7 @@ anchor-lang = { version = "0.29.0", optional = true }
 anchor-spl = { version = "0.29.0", optional = true }
 fixed = { version = "1.11.0", optional = true }
 pyth-sdk-solana = { version = "0.10.1", optional = true }
-solana-account-decoder = { version = "=1.17.34", optional = true }
+solana-account-decoder = { version = "=1.17.6", optional = true }
 async-once-cell = {version = "0.4.2", features = ["unpin"], optional = true}
 async-trait = {version = "0.1.80", optional = true}
 
