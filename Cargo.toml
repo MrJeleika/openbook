@@ -22,17 +22,17 @@ openbook_dex = { version = "0.5.6" , features = ["test", "client"], optional = t
 
 # common
 anyhow = "1.0.80"
-solana-sdk = "=1.17.6"
+solana-sdk = "^1.17.6"
 rand = "0.8.5"
-solana-client = "=1.17.6"
-solana-rpc-client-api = "=1.17.6"
+solana-client = "^1.17.6"
+solana-rpc-client-api = "^1.17.6"
 borsh = "0.10.3"
 serde_json = "1.0.114"
 tokio = { version = "1.36.0", features = ["time"] }
 spl-associated-token-account = "=2.3.0"
 clap = { version = "4.5.1", features = ["derive"], optional = true }
 solana-cli-output = { version = "=1.17.6" , optional = true  }
-solana-transaction-status = "=1.17.6"
+solana-transaction-status = "^1.17.6"
 backon = "0.4.3"
 ratatui = { version = "0.26.2", features = ["crossterm"], optional = true }
 tui-input = { version = "0.8.0", optional = true }
